@@ -17,6 +17,42 @@ A modern, feature-rich PDF viewer built with React and Vite that supports multip
 - ⚡ Fast rendering with lazy loading
 - 🎯 Easy-to-use interface
 
+## Screenshots
+
+- Interface
+
+  ![](src\assets\screenshots\pdf-view-main_layout.png)
+
+- Default View
+
+  ![](src\assets\screenshots\pdf-view-load_File.png)
+
+- Reduced Screen Width
+
+  ![](src\assets\screenshots\pdf-view-min_width.png)
+
+- Themes:
+
+  - Dark
+
+    ![](src\assets\screenshots\pdf-view-theme_dark.png)
+
+  - Sepia
+
+    ![](src\assets\screenshots\pdf-view-theme_sepia.png)
+
+  - Dark Contrast
+
+    ![](src\assets\screenshots\pdf-view-theme_darkContrast.png)
+
+  - Night
+
+    ![](src\assets\screenshots\pdf-view-theme_night.png)
+
+  - Mint
+
+    ![](src\assets\screenshots\pdf-view-theme_mint.png)
+
 ## Tech Stack
 
 - React 19
