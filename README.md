@@ -37,7 +37,7 @@ A modern, feature-rich PDF viewer built with React and Vite that supports multip
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/pdf-view.git
+git clone https://github.com/wickramDSK/pdf-view.git
 cd pdf-view
 ```
 
