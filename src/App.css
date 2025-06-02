@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* General Styles */
+body {
+  margin: 0;
+  background-color: #c5c5df;
+
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+/* Header Styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f2226;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 0px 10px 20px;
+  z-index: 2;
+}
+
+/* Theme Selector */
+.theme-selector {
+  font-family: "Inter", sans-serif;
+  padding: 8px 12px;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  margin: 0 10px;
+  color: black;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.theme-selector:hover {
+  border-color: #4a90e2;
+}
+
+/* Toolbar */
+.toolbar {
+  position: fixed;
+  font-family: "Inter", sans-serif;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  z-index: 1;
+}
+
+.toolbar-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.file-input input[type="file"] {
+  max-width: auto;
+  padding: 8px;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  color: black;
+  font-family: "Inter", sans-serif;
+  margin-left: 10px;
+}
+
+/* Button Styles */
+.toolbar button,
+.zoom-controls button {
+  padding: 6px 12px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover:not(:disabled) {
+  background-color: #357ab8;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* PDF Container */
+.pdf-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.document-container {
+  border: dashed 3px #7575e3;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.249);
+  overflow-y: auto;
+}
+
+.placeholder-text {
+  color: #888;
+  text-align: center;
+  padding: 40px;
+}
+
+.pdf-page-wrapper {
+  margin-bottom: 20px;
+}
+
+.pdf-page-wrapper:last-child {
+  margin-bottom: 40px;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f2226;
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+  z-index: 2;
+  font-size: small;
+  align-items: center;
+  a {
+    color: #64a4ee;
+  }
+  img {
+    width: 20px;
+    vertical-align: middle;
+  }
+}
